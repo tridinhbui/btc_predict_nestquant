@@ -13,30 +13,20 @@ Submission Generation: The trained models can generate submissions that provide 
 Installation
 Clone this repository to your local machine.
 
-bash
-git clone https://github.com/yourusername/nestquantt-market-test.git
-Install the required dependencies using pip.
-
-bash
-pip install -r requirements.txt
 Usage
 Configure the crawling settings in config.py to specify the data sources, frequency, and other parameters.
 
 Run the crawling script to collect the latest market data.
 
-bash
 python crawl.py
 Preprocess the collected data for training.
 
-bash
 python preprocess.py
 Train the predictive models using the preprocessed data.
 
-bash
 python train.py
 Generate submissions based on the trained models.
 
-bash
 python generate_submission.py
 Contributions
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
